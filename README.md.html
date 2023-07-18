@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>README.md</title><style></style></head><body id="preview">
+<h1 class="code-line" data-line-start="0" data-line-end="1"><a id="NameEntityRecognition_0"></a>Name-Entity-Recognition</h1>
+<p class="has-line-data" data-line-start="2" data-line-end="3">Created two models to slove the Name entity recognition. Name-Entity-Recognition (NER) is a subtask of Natural Language Processing (NLP) that involves identifying and extracting entities such as person names, organizations, locations, and other types of named entities from unstructured text.</p>
+<ol>
+<li class="has-line-data" data-line-start="5" data-line-end="6"><a href="#General">General</a></li>
+<li class="has-line-data" data-line-start="6" data-line-end="8"><a href="#Program-Structure">Program Structure</a>
+<ul>
+<li class="has-line-data" data-line-start="7" data-line-end="8"><a href="#Network-Structure">Network Structure</a></li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="8" data-line-end="10"><a href="#Installation">Installation</a></li>
+</ol>
+<h2 class="code-line" data-line-start="10" data-line-end="11"><a id="General_10"></a>General</h2>
+<p class="has-line-data" data-line-start="11" data-line-end="12">The goal is to create model that will recogize the right entity of each word in the sentence.</p>
+<h2 class="code-line" data-line-start="15" data-line-end="16"><a id="Program_Structure_15"></a>Program Structure</h2>
+<ul>
+<li class="has-line-data" data-line-start="16" data-line-end="17">model1_318170917_3222995358.py - the first model, SVC</li>
+<li class="has-line-data" data-line-start="17" data-line-end="18">model23_318170917_3222995358.py - the second model, fully connected network.</li>
+<li class="has-line-data" data-line-start="18" data-line-end="20">generate_comp_tagged.py - uses the model to tag the data.</li>
+</ul>
+<h3 class="code-line" data-line-start="20" data-line-end="21"><a id="NetworkStructure_20"></a>Network-Structure</h3>
+<p class="has-line-data" data-line-start="21" data-line-end="22">The network is fc based network including three layers with the following dimensions</p>
+<p class="has-line-data" data-line-start="23" data-line-end="24">&lt;img src=&quot;<a href="https://i.imgur.com/a2HMprY.png">https://i.imgur.com/a2HMprY.png</a>&quot; width = 50% height=50%&gt;</p>
+<h2 class="code-line" data-line-start="26" data-line-end="27"><a id="Installation_26"></a>Installation</h2>
+<ol>
+<li class="has-line-data" data-line-start="27" data-line-end="29">
+<p class="has-line-data" data-line-start="27" data-line-end="28">Open the terminal</p>
+</li>
+<li class="has-line-data" data-line-start="29" data-line-end="30">
+<p class="has-line-data" data-line-start="29" data-line-end="30">Clone the project by:</p>
+</li>
+</ol>
+<pre><code class="has-line-data" data-line-start="31" data-line-end="33">    $ git clone https://github.com/RonDagani/Name-Entity-Recognition.git
+</code></pre>
+<ol start="3">
+<li class="has-line-data" data-line-start="33" data-line-end="34">Run the generate_comp_tagged.py.py file by:</li>
+</ol>
+<pre><code class="has-line-data" data-line-start="35" data-line-end="37">    $ python generate_comp_tagged.py.py
+</code></pre>
+</body></html>
